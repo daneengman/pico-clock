@@ -1,5 +1,4 @@
-Name: two
-Order: 2
+Name: Two
 
 Mask:
 0110
