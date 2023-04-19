@@ -16,5 +16,5 @@ pico_sdk_init()
 
 # rest of your project
 
-add_subdirectory(utils)
+add_subdirectory(basic)
 add_subdirectory(example)

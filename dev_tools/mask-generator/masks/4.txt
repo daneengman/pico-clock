@@ -1,11 +1,11 @@
-Name: one
-Order: 1
+Name: four
+Order: 4
 
 Mask:
 0001
 0011
-0001
-0001
+0101
+1111
 0001
 0001
 0001

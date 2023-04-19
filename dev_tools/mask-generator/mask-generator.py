@@ -3,27 +3,32 @@ import math
 import textwrap
 
 head = """\
+#ifndef MASKS
+#define MASKS
+
 #include <stdio.h>
 
 typedef const uint8_t mask_array_t;
 typedef const struct {
   const uint8_t height; 
   const uint8_t width; 
-  mask_array_t *mask_array;
+  const mask_array_t *mask_array;
 } mask_t;
 
 
 """
 
 middle = """
-const struct {
-    mask_t mask;
+static const struct {
+    mask_t *const mask;
     const char *name;
 } mask_table[] = {
 """
 
 tail = """\
-};"""
+};
+
+#endif"""
 
 def get_vals(path, f):
   error = False
@@ -81,12 +86,12 @@ def make_result(masks):
   table_entries = ""
   for mask in masks:
     this_mask = f"""\
-mask_array_t mask_array_{mask["name"]}[] = {mask["mask_array"]};
-mask_t mask_{mask["name"]} = {{{mask["height"]}, {mask["width"]}, &mask_array_{mask["name"]}[0]}};\n\n"""
+static mask_array_t mask_array_{mask["name"]}[] = {mask["mask_array"]};
+static mask_t mask_{mask["name"]} = {{{mask["height"]}, {mask["width"]}, mask_array_{mask["name"]}}};\n\n"""
     mask_string = mask_string + this_mask
 
     this_table_entry = f"""\
-    {{mask_{mask["name"]}, "{mask["name"]}"}},\n"""
+    {{&mask_{mask["name"]}, "{mask["name"]}"}},\n"""
     table_entries = table_entries + this_table_entry
   return head + mask_string + middle + table_entries + tail
 
