@@ -136,10 +136,10 @@ int main() {
         int dir = (rand() >> 30) & 1 ? 1 : -1;
         // puts(pattern_table[pat].name);
         // puts(dir == 1 ? "(forward)" : "(backward)");
-        uint8_t red = rand();
-        uint8_t blue = rand();
-        uint8_t green = rand();
-        int cycles = 5;
+        uint8_t red = ((uint8_t) rand()) >> 4;
+        uint8_t blue = ((uint8_t) rand()) >> 4;
+        uint8_t green = ((uint8_t) rand()) >> 4;
+        int cycles = 500;
         for (int c = 0; c < cycles; c++) {
             reset_display();
             update_fill(red_p + (red-red_p)*c/cycles, green_p + (green-green_p)*c/cycles, blue_p + (blue-blue_p)*c/cycles);

@@ -18,3 +18,4 @@ pico_sdk_init()
 
 add_subdirectory(basic)
 add_subdirectory(example)
+add_subdirectory(RTC)

@@ -1164,9 +1164,9 @@ Discarded input sections
  .bss.claimed   0x00000000        0x1 basic/display_driver/libdisplay_driver.a(pio.c.obj)
  .rodata.__func__.0
                 0x00000000       0x13 basic/display_driver/libdisplay_driver.a(pio.c.obj)
- .text          0x00000000        0x0 C:\Users\dreng\AppData\Local\Temp\ccAnK1zG.o
- .data          0x00000000        0x0 C:\Users\dreng\AppData\Local\Temp\ccAnK1zG.o
- .bss           0x00000000        0x0 C:\Users\dreng\AppData\Local\Temp\ccAnK1zG.o
+ .text          0x00000000        0x0 C:\Users\dreng\AppData\Local\Temp\ccCZCap1.o
+ .data          0x00000000        0x0 C:\Users\dreng\AppData\Local\Temp\ccCZCap1.o
+ .bss           0x00000000        0x0 C:\Users\dreng\AppData\Local\Temp\ccCZCap1.o
  .data          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1380,11 +1380,11 @@ LOAD c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\dreng\AppData\Local\Temp\ccAnK1zG.o
+ .boot2         0x10000000      0x100 C:\Users\dreng\AppData\Local\Temp\ccCZCap1.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x4d88
+.text           0x10000100     0x4d48
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1445,449 +1445,448 @@ LOAD c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
                 0x100002b8                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100002bc       0x48 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
- .text.main     0x10000304      0x154 basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
+ .text.main     0x10000304      0x150 basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
                 0x10000304                main
  .text.gpio_set_function
-                0x10000458       0x30 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000458                gpio_set_function
+                0x10000454       0x30 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000454                gpio_set_function
  .text.running_on_fpga
-                0x10000488       0x14 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x10000488                running_on_fpga
+                0x10000484       0x14 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000484                running_on_fpga
  .text.hw_claim_lock
-                0x1000049c       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x1000049c                hw_claim_lock
+                0x10000498       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000498                hw_claim_lock
  .text.hw_claim_unlock
-                0x100004b4       0x14 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100004b4                hw_claim_unlock
+                0x100004b0       0x14 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100004b0                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x100004c8       0x32 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100004c8                hw_claim_or_assert
- *fill*         0x100004fa        0x2 
+                0x100004c4       0x32 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100004c4                hw_claim_or_assert
+ *fill*         0x100004f6        0x2 
  .text.spin_locks_reset
-                0x100004fc       0x20 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100004fc                spin_locks_reset
+                0x100004f8       0x20 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100004f8                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x1000051c       0x1c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x1000051c                next_striped_spin_lock_num
+                0x10000518       0x1c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000518                next_striped_spin_lock_num
  .text.set_raw_irq_handler_and_unlock
-                0x10000538       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000534       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.make_branch
-                0x10000560       0x48 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000055c       0x48 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.insert_branch_and_link
-                0x100005a8       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005a4       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_is_enabled
-                0x100005e8       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005e8                irq_is_enabled
+                0x100005e4       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005e4                irq_is_enabled
  .text.irq_set_mask_enabled
-                0x10000600       0x20 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000600                irq_set_mask_enabled
+                0x100005fc       0x20 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005fc                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x10000620        0xe basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000620                irq_set_enabled
- *fill*         0x1000062e        0x2 
+                0x1000061c        0xe basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000061c                irq_set_enabled
+ *fill*         0x1000062a        0x2 
  .text.irq_get_vtable_handler
-                0x10000630       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000630                irq_get_vtable_handler
+                0x1000062c       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000062c                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000640       0x54 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000640                irq_set_exclusive_handler
+                0x1000063c       0x54 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000063c                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x10000694      0x1ac basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000694                irq_remove_handler
+                0x10000690      0x1ac basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000690                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000840       0xf0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000840                irq_add_tail_to_free_list
+                0x1000083c       0xf0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000083c                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000930       0x1c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000930                irq_init_priorities
+                0x1000092c       0x1c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000092c                irq_init_priorities
  .text.lock_init
-                0x1000094c       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x1000094c                lock_init
+                0x10000948       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10000948                lock_init
  .text.mutex_init
-                0x1000095c       0x1a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x1000095c                mutex_init
+                0x10000958       0x1a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000958                mutex_init
  .text.recursive_mutex_init
-                0x10000976       0x1e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000976                recursive_mutex_init
+                0x10000972       0x1e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000972                recursive_mutex_init
  .text.alarm_pool_post_alloc_init
-                0x10000994       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000990       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until_callback
-                0x100009d4       0x30 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100009d0       0x30 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x10000a04       0x7c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000a04                timer_pool_entry_comparator
+                0x10000a00       0x7c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a00                timer_pool_entry_comparator
  .text.ph_add_child_node
-                0x10000a80       0xa4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a7c       0xa4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.ph_merge_nodes
-                0x10000b24       0x3e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10000b62        0x2 
+                0x10000b20       0x3e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10000b5e        0x2 
  .text.add_alarm_under_lock
-                0x10000b64      0x174 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b60      0x174 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000cd8      0x33c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000cd4      0x33c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10001014       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001014                alarm_pool_init_default
+                0x10001010       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001010                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10001054       0x2c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001054                alarm_pool_get_default
+                0x10001050       0x2c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001050                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10001080      0x168 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001080                alarm_pool_add_alarm_at
+                0x1000107c      0x168 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000107c                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x100011e8       0xf0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100011e8                alarm_pool_cancel_alarm
+                0x100011e4       0xf0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100011e4                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x100012d8       0xfc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100012d8                sleep_until
+                0x100012d4       0xfc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100012d4                sleep_until
  .text.sleep_us
-                0x100013d4       0x58 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100013d4                sleep_us
+                0x100013d0       0x58 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100013d0                sleep_us
  .text.sleep_ms
-                0x1000142c       0x14 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000142c                sleep_ms
+                0x10001428       0x14 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001428                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10001440       0xac basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001440                best_effort_wfe_or_timeout
+                0x1000143c       0xac basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000143c                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x100014ec       0x90 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100014e8       0x90 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x1000157c       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000157c                hardware_alarm_claim
+                0x10001578       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001578                hardware_alarm_claim
  .text.time_us_64
-                0x10001594       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001594                time_us_64
+                0x10001590       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001590                time_us_64
  .text.busy_wait_until
-                0x100015ac       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100015ac                busy_wait_until
+                0x100015a8       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100015a8                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x100015d4       0x90 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100015d4                hardware_alarm_set_callback
+                0x100015d0       0x90 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100015d0                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001664       0xe8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001664                hardware_alarm_set_target
+                0x10001660       0xe8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001660                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x1000174c       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000174c                hardware_alarm_cancel
+                0x10001748       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001748                hardware_alarm_cancel
  .text.ph_add_child_node
-                0x1000178c       0xa4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001788       0xa4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x10001830       0x3e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x1000186e        0x2 
+                0x1000182c       0x3e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x1000186a        0x2 
  .text.ph_clear
-                0x10001870       0x70 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001870                ph_clear
+                0x1000186c       0x70 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000186c                ph_clear
  .text.ph_post_alloc_init
-                0x100018e0        0xe basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100018e0                ph_post_alloc_init
- *fill*         0x100018ee        0x2 
+                0x100018dc        0xe basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100018dc                ph_post_alloc_init
+ *fill*         0x100018ea        0x2 
  .text.ph_merge_two_pass
-                0x100018f0       0xa8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100018f0                ph_merge_two_pass
+                0x100018ec       0xa8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100018ec                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001998      0x128 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001994      0x128 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001ac0       0x14 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ac0                ph_remove_head
+                0x10001abc       0x14 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001abc                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001ad4       0xf8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ad4                ph_remove_and_free_node
+                0x10001ad0       0xf8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001ad0                ph_remove_and_free_node
  .text.uart_set_baudrate
-                0x10001bcc       0x5c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001bcc                uart_set_baudrate
+                0x10001bc8       0x5c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001bc8                uart_set_baudrate
  .text.uart_set_translate_crlf
-                0x10001c28       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001c28                uart_set_translate_crlf
+                0x10001c24       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001c24                uart_set_translate_crlf
  .text.uart_init
-                0x10001c50       0x80 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001c50                uart_init
+                0x10001c4c       0x80 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001c4c                uart_init
  .text.clock_configure
-                0x10001cd0      0x104 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001cd0                clock_configure
+                0x10001ccc      0x104 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001ccc                clock_configure
  .text.clocks_init
-                0x10001dd4      0x100 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001dd4                clocks_init
+                0x10001dd0      0x100 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001dd0                clocks_init
  .text.clock_get_hz
-                0x10001ed4        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001ed4                clock_get_hz
+                0x10001ed0        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001ed0                clock_get_hz
  .text.pll_init
-                0x10001ee0      0x12c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001ee0                pll_init
+                0x10001edc      0x12c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001edc                pll_init
  .text.watchdog_start_tick
-                0x1000200c       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x1000200c                watchdog_start_tick
+                0x10002008       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10002008                watchdog_start_tick
  .text.xosc_init
-                0x1000201c       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x1000201c                xosc_init
- .text._exit    0x10002044        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002044                _exit
- .text.exit     0x10002048        0x6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002048                exit
- *fill*         0x1000204e        0x2 
+                0x10002018       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002018                xosc_init
+ .text._exit    0x10002040        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002040                _exit
+ .text.exit     0x10002044        0x6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002044                exit
+ *fill*         0x1000204a        0x2 
  .text.__assert_func
-                0x10002050       0x3c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002050                __assert_func
+                0x1000204c       0x3c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000204c                __assert_func
  .text.runtime_init
-                0x1000208c       0xf8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000208c                runtime_init
- .text.panic    0x10002184       0x30 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002184                panic
+                0x10002088       0xf8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002088                runtime_init
+ .text.panic    0x10002180       0x30 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002180                panic
  .text._out_null
-                0x100021b4        0x2 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100021b0        0x2 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x100021b6        0xe basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x100021c4       0x24 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100021b2        0xe basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x100021c0       0x24 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x100021e8       0xae basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100021e4       0xae basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10002296      0x112 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002292      0x112 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x100023a8       0xbc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100023a4       0xbc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x10002464       0xe2 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10002546        0x2 
- .text._etoa    0x10002548      0x414 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x1000295c      0x354 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002460       0xe2 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10002542        0x2 
+ .text._etoa    0x10002544      0x414 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002958      0x354 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002cb0      0x624 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002cac      0x624 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x100032d4       0x20 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100032d4                vfctprintf
- .text          0x100032f4       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x100032d0       0x20 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100032d0                vfctprintf
+ .text          0x100032f0       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10003304       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003304                rom_func_lookup
+                0x10003300       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003300                rom_func_lookup
  .text.rom_data_lookup
-                0x10003314       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003314                rom_data_lookup
+                0x10003310       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003310                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10003324       0x36 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003324                rom_funcs_lookup
- *fill*         0x1000335a        0x2 
+                0x10003320       0x36 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003320                rom_funcs_lookup
+ *fill*         0x10003356        0x2 
  .text.__wrap___aeabi_idiv
-                0x1000335c       0x50 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x1000335c                __wrap___aeabi_idivmod
-                0x1000335c                divmod_s32s32
-                0x1000335c                div_s32s32
-                0x1000335c                __wrap___aeabi_idiv
-                0x10003364                divmod_s32s32_unsafe
-                0x10003390                divmod_s32s32_savestate
+                0x10003358       0x50 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003358                __wrap___aeabi_idivmod
+                0x10003358                divmod_s32s32
+                0x10003358                div_s32s32
+                0x10003358                __wrap___aeabi_idiv
+                0x10003360                divmod_s32s32_unsafe
+                0x1000338c                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x100033ac       0x4c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100033ac                __wrap___aeabi_uidiv
-                0x100033ac                __wrap___aeabi_uidivmod
-                0x100033ac                div_u32u32
-                0x100033ac                divmod_u32u32
-                0x100033b4                divmod_u32u32_unsafe
-                0x100033dc                divmod_u32u32_savestate
+                0x100033a8       0x4c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100033a8                __wrap___aeabi_uidiv
+                0x100033a8                __wrap___aeabi_uidivmod
+                0x100033a8                div_u32u32
+                0x100033a8                divmod_u32u32
+                0x100033b0                divmod_u32u32_unsafe
+                0x100033d8                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x100033f8      0x424 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100033f8                div_s64s64
-                0x100033f8                divmod_s64s64
-                0x100033f8                __wrap___aeabi_ldivmod
-                0x10003428                divmod_u64u64
-                0x10003428                div_u64u64
-                0x10003428                __wrap___aeabi_uldivmod
-                0x10003438                divmod_u64u64_savestate
-                0x10003458                divmod_s64s64_unsafe
-                0x100034e0                divmod_u64u64_unsafe
+                0x100033f4      0x424 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100033f4                div_s64s64
+                0x100033f4                divmod_s64s64
+                0x100033f4                __wrap___aeabi_ldivmod
+                0x10003424                divmod_u64u64
+                0x10003424                div_u64u64
+                0x10003424                __wrap___aeabi_uldivmod
+                0x10003434                divmod_u64u64_savestate
+                0x10003454                divmod_s64s64_unsafe
+                0x100034dc                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x1000381c       0x80 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000381c                __wrap___aeabi_drsub
-                0x10003822                __wrap___aeabi_dsub
-                0x10003834                __wrap___aeabi_dadd
-                0x10003846                __wrap___aeabi_ddiv
-                0x10003882                __wrap___aeabi_dmul
+                0x10003818       0x80 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003818                __wrap___aeabi_drsub
+                0x1000381e                __wrap___aeabi_dsub
+                0x10003830                __wrap___aeabi_dadd
+                0x10003842                __wrap___aeabi_ddiv
+                0x1000387e                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x1000389c       0x6c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000389c                __wrap___aeabi_cdrcmple
-                0x100038ac                __wrap___aeabi_cdcmpeq
-                0x100038ac                __wrap___aeabi_cdcmple
+                0x10003898       0x6c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003898                __wrap___aeabi_cdrcmple
+                0x100038a8                __wrap___aeabi_cdcmpeq
+                0x100038a8                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10003908        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003908                __wrap___aeabi_dcmplt
+                0x10003904        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003904                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10003914       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003914                __wrap___aeabi_dcmple
+                0x10003910       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003910                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10003924       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003924                __wrap___aeabi_dcmpge
+                0x10003920       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003920                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003934        0xa basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003934                __wrap___aeabi_dcmpgt
+                0x10003930        0xa basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003930                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x1000393e       0x1c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000393e                __wrap___aeabi_dcmpun
- *fill*         0x1000395a        0x2 
+                0x1000393a       0x1c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000393a                __wrap___aeabi_dcmpun
+ *fill*         0x10003956        0x2 
  .text.__wrap___aeabi_i2d
-                0x1000395c       0x38 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000395c                __wrap___aeabi_ui2d
-                0x10003964                __wrap___aeabi_i2d
+                0x10003958       0x38 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003958                __wrap___aeabi_ui2d
+                0x10003960                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10003994       0x48 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003994                double2int_z
-                0x10003994                __wrap___aeabi_d2iz
+                0x10003990       0x48 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003990                double2int_z
+                0x10003990                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x100039dc       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039dc                __wrap___aeabi_d2uiz
-                0x100039dc                double2uint
+                0x100039d8       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100039d8                __wrap___aeabi_d2uiz
+                0x100039d8                double2uint
  .text.__aeabi_double_init
-                0x100039f4       0xc8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x100039f4                __aeabi_double_init
+                0x100039f0       0xc8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x100039f0                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003abc       0x34 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003abc                double_table_shim_on_use_helper
+                0x10003ab8       0x34 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003ab8                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10003af0       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003af0                drsub_shim
-                0x10003af6                dsub_shim
+                0x10003aec       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003aec                drsub_shim
+                0x10003af2                dsub_shim
  .text.dadd_shim
-                0x10003b00      0x15c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003b00                dadd_shim
+                0x10003afc      0x15c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003afc                dadd_shim
  .text.dmul_shim
-                0x10003c5c      0x15c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003c5c                dmul_shim
+                0x10003c58      0x15c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003c58                dmul_shim
  .text.ddiv_shim
-                0x10003db8      0x1b0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003db8                ddiv_shim
+                0x10003db4      0x1b0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003db4                ddiv_shim
  .text.double2uint_shim
-                0x10003f68        0xe basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003f68                double2uint_shim
-                0x10003f6a                double2ufix_shim
- *fill*         0x10003f76        0x2 
+                0x10003f64        0xe basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003f64                double2uint_shim
+                0x10003f66                double2ufix_shim
+ *fill*         0x10003f72        0x2 
  .text.double2uint64_shim
-                0x10003f78       0x70 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003f78                double2uint64_shim
-                0x10003f7a                double2ufix64_shim
-                0x10003f9a                d2fix_a
+                0x10003f74       0x70 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003f74                double2uint64_shim
+                0x10003f76                double2ufix64_shim
+                0x10003f96                d2fix_a
  .text.dunpacks
-                0x10003fe8       0x3c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003fe8                dunpacks
+                0x10003fe4       0x3c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003fe4                dunpacks
  .text.__aeabi_lmul
-                0x10004024       0x32 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10004024                __wrap___aeabi_lmul
- *fill*         0x10004056        0x2 
+                0x10004020       0x32 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10004020                __wrap___aeabi_lmul
+ *fill*         0x10004052        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x10004058       0x58 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10004058                __wrap___aeabi_frsub
-                0x1000405e                __wrap___aeabi_fsub
-                0x10004068                __wrap___aeabi_fadd
-                0x10004072                __wrap___aeabi_fdiv
-                0x1000409e                __wrap___aeabi_fmul
+                0x10004054       0x58 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10004054                __wrap___aeabi_frsub
+                0x1000405a                __wrap___aeabi_fsub
+                0x10004064                __wrap___aeabi_fadd
+                0x1000406e                __wrap___aeabi_fdiv
+                0x1000409a                __wrap___aeabi_fmul
  .text.__wrap___aeabi_ui2f
-                0x100040b0        0xa basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100040b0                __wrap___aeabi_ui2f
- *fill*         0x100040ba        0x2 
+                0x100040ac        0xa basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100040ac                __wrap___aeabi_ui2f
+ *fill*         0x100040b6        0x2 
  .text.__wrap___aeabi_i2f
-                0x100040bc       0x44 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100040bc                __wrap___aeabi_i2f
+                0x100040b8       0x44 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100040b8                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2uiz
-                0x10004100       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10004100                __wrap___aeabi_f2uiz
+                0x100040fc       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100040fc                __wrap___aeabi_f2uiz
  .text.__aeabi_float_init
-                0x10004110       0xfc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10004110                __aeabi_float_init
+                0x1000410c       0xfc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x1000410c                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x1000420c       0x34 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x1000420c                float_table_shim_on_use_helper
- .text          0x10004240       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004240                __aeabi_mem_init
- .text.memset   0x10004250        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004250                __wrap_memset
- .text.memcpy   0x1000425c        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000425c                __wrap_memcpy
-                0x1000425c                __wrap___aeabi_memcpy
+                0x10004208       0x34 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10004208                float_table_shim_on_use_helper
+ .text          0x1000423c       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x1000423c                __aeabi_mem_init
+ .text.memset   0x1000424c        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x1000424c                __wrap_memset
+ .text.memcpy   0x10004258        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004258                __wrap_memcpy
+                0x10004258                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10004268        0xe basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10004276        0x2 
+                0x10004264        0xe basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10004272        0x2 
  .text.stdio_out_chars_crlf
-                0x10004278       0x80 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004274       0x80 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x100042f8       0x44 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100042f4       0x44 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x1000433c       0x20 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004338       0x20 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x1000435c       0x5c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000435c                stdout_serialize_begin
+                0x10004358       0x5c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004358                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x100043b8       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100043b8                stdout_serialize_end
+                0x100043b4       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100043b4                stdout_serialize_end
  .text.stdio_put_string
-                0x100043c8       0x98 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100043c4       0x98 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_driver_enabled
-                0x10004460       0x2c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004460                stdio_set_driver_enabled
+                0x1000445c       0x2c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000445c                stdio_set_driver_enabled
  .text.stdio_flush
-                0x1000448c       0x20 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000448c                stdio_flush
+                0x10004488       0x20 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004488                stdio_flush
  .text.__wrap_puts
-                0x100044ac       0x1e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100044ac                __wrap_puts
- *fill*         0x100044ca        0x2 
+                0x100044a8       0x1e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100044a8                __wrap_puts
+ *fill*         0x100044c6        0x2 
  .text.__wrap_vprintf
-                0x100044cc       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100044cc                __wrap_vprintf
+                0x100044c8       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100044c8                __wrap_vprintf
  .text.__wrap_printf
-                0x1000450c       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000450c                __wrap_printf
+                0x10004508       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004508                __wrap_printf
  .text.stdio_init_all
-                0x10004524        0xa basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004524                stdio_init_all
- *fill*         0x1000452e        0x2 
+                0x10004520        0xa basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004520                stdio_init_all
+ *fill*         0x1000452a        0x2 
  .text.stdio_uart_out_chars
-                0x10004530       0x74 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000452c       0x74 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x100045a4       0x80 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100045a4                stdio_uart_in_chars
+                0x100045a0       0x80 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100045a0                stdio_uart_in_chars
  .text.on_uart_rx
-                0x10004624       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004620       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x1000464c       0x8c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004648       0x8c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init_full
-                0x100046d8       0x44 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100046d8                stdio_uart_init_full
+                0x100046d4       0x44 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100046d4                stdio_uart_init_full
  .text.stdio_uart_init
-                0x1000471c       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x1000471c                stdio_uart_init
+                0x10004718       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004718                stdio_uart_init
  .text.reset_display
-                0x10004744       0x3c basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
-                0x10004744                reset_display
+                0x10004740       0x3c basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10004740                reset_display
  .text.apply_mask
-                0x10004780       0xc4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
-                0x10004780                apply_mask
+                0x1000477c       0x8c basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x1000477c                apply_mask
  .text.update_fill
-                0x10004844       0x40 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
-                0x10004844                update_fill
+                0x10004808       0x40 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10004808                update_fill
  .text.write_display
-                0x10004884       0xd0 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
-                0x10004884                write_display
+                0x10004848       0xd0 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10004848                write_display
  .text.display_init
-                0x10004954      0x16c basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
-                0x10004954                display_init
+                0x10004918      0x16c basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10004918                display_init
  .text._pio_can_add_program_at_offset
-                0x10004ac0       0x3c basic/display_driver/libdisplay_driver.a(pio.c.obj)
+                0x10004a84       0x3c basic/display_driver/libdisplay_driver.a(pio.c.obj)
  .text._pio_find_offset_for_program
-                0x10004afc       0x7c basic/display_driver/libdisplay_driver.a(pio.c.obj)
+                0x10004ac0       0x7c basic/display_driver/libdisplay_driver.a(pio.c.obj)
  .text._pio_add_program_at_offset
-                0x10004b78       0x78 basic/display_driver/libdisplay_driver.a(pio.c.obj)
+                0x10004b3c       0x78 basic/display_driver/libdisplay_driver.a(pio.c.obj)
  .text.pio_add_program
-                0x10004bf0       0x38 basic/display_driver/libdisplay_driver.a(pio.c.obj)
-                0x10004bf0                pio_add_program
+                0x10004bb4       0x38 basic/display_driver/libdisplay_driver.a(pio.c.obj)
+                0x10004bb4                pio_add_program
  .text.pio_sm_set_consecutive_pindirs
-                0x10004c28       0xa4 basic/display_driver/libdisplay_driver.a(pio.c.obj)
-                0x10004c28                pio_sm_set_consecutive_pindirs
+                0x10004bec       0xa4 basic/display_driver/libdisplay_driver.a(pio.c.obj)
+                0x10004bec                pio_sm_set_consecutive_pindirs
  .text.pio_sm_init
-                0x10004ccc       0xe4 basic/display_driver/libdisplay_driver.a(pio.c.obj)
-                0x10004ccc                pio_sm_init
- .text.rand     0x10004db0       0x34 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-rand.o)
-                0x10004db0                rand
- .text.strlen   0x10004de4       0x5c c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
-                0x10004de4                strlen
+                0x10004c90       0xe4 basic/display_driver/libdisplay_driver.a(pio.c.obj)
+                0x10004c90                pio_sm_init
+ .text.rand     0x10004d74       0x34 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-rand.o)
+                0x10004d74                rand
+ .text.strlen   0x10004da8       0x5c c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+                0x10004da8                strlen
  *(.fini)
- .fini          0x10004e40        0x4 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x10004e40                _fini
- *fill*         0x10004e44        0x4 
- .fini.__stub   0x10004e48       0x40 linker stubs
+ .fini          0x10004e04        0x4 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x10004e04                _fini
+ .fini.__stub   0x10004e08       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1899,321 +1898,317 @@ LOAD c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10004e88        0x0 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10004e88                . = ALIGN (0x4)
+ .eh_frame      0x10004e48        0x0 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10004e48                . = ALIGN (0x4)
 
-.glue_7         0x10004e88        0x0
- .glue_7        0x10004e88        0x0 linker stubs
+.glue_7         0x10004e48        0x0
+ .glue_7        0x10004e48        0x0 linker stubs
 
-.glue_7t        0x10004e88        0x0
- .glue_7t       0x10004e88        0x0 linker stubs
+.glue_7t        0x10004e48        0x0
+ .glue_7t       0x10004e48        0x0 linker stubs
 
-.vfp11_veneer   0x10004e88        0x0
- .vfp11_veneer  0x10004e88        0x0 linker stubs
+.vfp11_veneer   0x10004e48        0x0
+ .vfp11_veneer  0x10004e48        0x0 linker stubs
 
-.v4_bx          0x10004e88        0x0
- .v4_bx         0x10004e88        0x0 linker stubs
+.v4_bx          0x10004e48        0x0
+ .v4_bx         0x10004e48        0x0 linker stubs
 
-.iplt           0x10004e88        0x0
- .iplt          0x10004e88        0x0 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10004e48        0x0
+ .iplt          0x10004e48        0x0 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10004e88     0x120c
+.rodata         0x10004e48     0x11d8
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10004e88       0x20 basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
+                0x10004e48       0x20 basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
  .rodata.make_branch.str1.4
-                0x10004ea8       0x7c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10004e68       0x7c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.insert_branch_and_link.str1.4
-                0x10004f24       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10004ee4       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.irq_set_exclusive_handler.str1.4
-                0x10004f34       0x36 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004f6a        0x2 
+                0x10004ef4       0x36 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004f2a        0x2 
  .rodata.irq_add_shared_handler.str1.4
-                0x10004f6c       0xd9 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10005045        0x3 
+                0x10004f2c       0xd9 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10005005        0x3 
  .rodata.irq_remove_handler.str1.4
-                0x10005048       0x3a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10005082        0x2 
+                0x10005008       0x3a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10005042        0x2 
  .rodata.irq_add_tail_to_free_list.str1.4
-                0x10005084       0x3a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100050be        0x2 
+                0x10005044       0x3a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000507e        0x2 
  .rodata.__func__.0
-                0x100050c0       0x1a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100050da        0x2 
+                0x10005080       0x1a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000509a        0x2 
  .rodata.__func__.1
-                0x100050dc       0x17 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100050f3        0x1 
+                0x1000509c       0x17 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100050b3        0x1 
  .rodata.__func__.2
-                0x100050f4       0x13 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10005107        0x1 
+                0x100050b4       0x13 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100050c7        0x1 
  .rodata.__func__.3
-                0x10005108        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100050c8        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4
-                0x10005114        0xf basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10005123        0x1 
+                0x100050d4        0xf basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100050e3        0x1 
  .rodata.__func__.6
-                0x10005124       0x1a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000513e        0x2 
+                0x100050e4       0x1a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100050fe        0x2 
  .rodata.str1.4
-                0x10005140      0x109 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x10005249        0x3 
+                0x10005100      0x109 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x10005209        0x3 
  .rodata.__func__.1
-                0x1000524c        0xb basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x10005257        0x1 
+                0x1000520c        0xb basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x10005217        0x1 
  .rodata.__func__.3
-                0x10005258       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10005218       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.repeating_timer_callback.str1.4
-                0x10005270       0x5a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100052ca        0x2 
+                0x10005230       0x5a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000528a        0x2 
  .rodata.timer_pool_entry_comparator.str1.4
-                0x100052cc       0x22 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100052ee        0x2 
+                0x1000528c       0x22 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100052ae        0x2 
  .rodata.ph_add_child_node.str1.4
-                0x100052f0       0xa6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10005396        0x2 
+                0x100052b0       0xa6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10005356        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x10005398       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10005358       0x28 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
                                  0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x100053c0       0x98 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10005380       0x98 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
                                 0x108 (size before relaxing)
  .rodata.alarm_pool_get_default.str1.4
-                0x10005458       0x21 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10005479        0x3 
+                0x10005418       0x21 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10005439        0x3 
  .rodata.alarm_pool_cancel_alarm.str1.4
-                0x1000547c       0x27 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100054a3        0x1 
+                0x1000543c       0x27 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10005463        0x1 
  .rodata.sleep_until.str1.4
-                0x100054a4       0x4d basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100054f1        0x3 
+                0x10005464       0x4d basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100054b1        0x3 
  .rodata.__func__.1
-                0x100054f4       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100054b4       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.10
-                0x1000550c       0x15 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10005521        0x3 
+                0x100054cc       0x15 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100054e1        0x3 
  .rodata.__func__.11
-                0x10005524       0x1a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1000553e        0x2 
+                0x100054e4       0x1a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100054fe        0x2 
  .rodata.__func__.12
-                0x10005540        0xa basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1000554a        0x2 
+                0x10005500        0xa basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000550a        0x2 
  .rodata.__func__.3
-                0x1000554c       0x17 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10005563        0x1 
+                0x1000550c       0x17 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10005523        0x1 
  .rodata.__func__.4
-                0x10005564       0x12 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10005576        0x2 
+                0x10005524       0x12 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10005536        0x2 
  .rodata.__func__.5
-                0x10005578        0xd basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10005585        0x3 
+                0x10005538        0xd basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10005545        0x3 
  .rodata.__func__.6
-                0x10005588       0x12 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1000559a        0x2 
+                0x10005548       0x12 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000555a        0x2 
  .rodata.__func__.7
-                0x1000559c        0xf basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100055ab        0x1 
+                0x1000555c        0xf basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000556b        0x1 
  .rodata.__func__.8
-                0x100055ac        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000556c        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.9
-                0x100055b8       0x15 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100055cd        0x3 
+                0x10005578       0x15 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000558d        0x3 
  .rodata.hardware_alarm_claim.str1.4
-                0x100055d0       0x22 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x100055f2        0x2 
+                0x10005590       0x22 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x100055b2        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x100055f4       0x74 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100055b4       0x74 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.__func__.0
-                0x10005668       0x1a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10005628       0x1a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x10005682       0xa6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10005682        0x2 
+                0x10005642       0xa6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10005642        0x2 
  .rodata.ph_remove_any_head.str1.4
-                0x10005684       0x9c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10005644       0x9c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0xb0 (size before relaxing)
  .rodata.ph_remove_and_free_node.str1.4
-                0x10005720       0x1e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100056e0       0x1e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0x26 (size before relaxing)
+ *fill*         0x100056fe        0x2 
+ .rodata.__func__.0
+                0x10005700       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .rodata.__func__.1
+                0x10005718       0x13 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x1000572b        0x1 
+ .rodata.__func__.2
+                0x1000572c       0x12 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  *fill*         0x1000573e        0x2 
- .rodata.__func__.0
-                0x10005740       0x18 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .rodata.__func__.1
-                0x10005758       0x13 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x1000576b        0x1 
- .rodata.__func__.2
-                0x1000576c       0x12 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x1000577e        0x2 
  .rodata.__func__.3
-                0x10005780        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10005740        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.clock_configure.str1.4
-                0x1000578c       0x66 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- *fill*         0x100057f2        0x2 
+                0x1000574c       0x66 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ *fill*         0x100057b2        0x2 
  .rodata.__func__.1
-                0x100057f4       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100057b4       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.pll_init.str1.4
-                0x10005804      0x12f basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x10005933        0x1 
+                0x100057c4      0x12f basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x100058f3        0x1 
  .rodata.__func__.0
-                0x10005934        0x9 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x1000593d        0x3 
+                0x100058f4        0x9 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x100058fd        0x3 
  .rodata.__assert_func.str1.4
-                0x10005940       0x3f basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10005900       0x3f basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                  0x43 (size before relaxing)
- *fill*         0x1000597f        0x1 
+ *fill*         0x1000593f        0x1 
  .rodata.runtime_init.str1.4
-                0x10005980       0x70 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10005940       0x70 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.panic.str1.4
-                0x100059f0       0x12 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10005a02        0x2 
+                0x100059b0       0x10 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                                 0x12 (size before relaxing)
  .rodata.__func__.2
-                0x10005a04        0xd basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10005a11        0x3 
+                0x100059c0        0xd basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x100059cd        0x3 
  .rodata._ftoa.str1.4
-                0x10005a14       0x15 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10005a29        0x3 
+                0x100059d0       0x15 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x100059e5        0x3 
  .rodata._vsnprintf
-                0x10005a2c      0x1e0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10005c0c        0x4 
+                0x100059e8      0x1e0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x10005c10       0x50 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10005bc8       0x50 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x10005c60       0xb7 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- *fill*         0x10005d17        0x1 
+                0x10005c18       0xb7 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ *fill*         0x10005ccf        0x1 
  .rodata.__func__.0
-                0x10005d18       0x14 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10005cd0       0x14 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x10005d2c       0x89 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10005ce4       0x89 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                  0x8d (size before relaxing)
- *fill*         0x10005db5        0x3 
+ *fill*         0x10005d6d        0x3 
  .rodata.__func__.0
-                0x10005db8       0x13 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x10005dcb        0x1 
+                0x10005d70       0x13 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x10005d83        0x1 
  .rodata.str1.4
-                0x10005dcc       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005d84       0x40 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10005e0c        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005dc4        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10005e18        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005dd0        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10005e24        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005ddc        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.stdout_serialize_begin.str1.4
-                0x10005e30       0x70 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10005de8       0x70 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__func__.3
-                0x10005e30       0x15 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10005e45        0x3 
+                0x10005de8       0x15 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10005dfd        0x3 
  .rodata.crlf_str.2
-                0x10005e48        0x2 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10005e4a        0x2 
+                0x10005e00        0x2 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10005e02        0x2 
  .rodata.str1.4
-                0x10005e4c       0x2c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005e04       0x2c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_33.4
-                0x10005e78        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005e30        0xc basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_34.5
-                0x10005e84        0x8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .rodata.apply_mask.str1.4
-                0x10005e8c       0x29 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
- *fill*         0x10005eb5        0x3 
+                0x10005e3c        0x8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.write_display.str1.4
-                0x10005eb8       0x11 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
- *fill*         0x10005ec9        0x3 
+                0x10005e44       0x12 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+ *fill*         0x10005e56        0x2 
  .rodata.str1.4
-                0x10005ecc       0x41 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
- *fill*         0x10005f0d        0x3 
+                0x10005e58       0x41 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+ *fill*         0x10005e99        0x3 
  .rodata.mask_array_eight
-                0x10005f10        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005e9c        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_array_five
-                0x10005f14        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005ea0        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_array_four
-                0x10005f18        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005ea4        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_array_nine
-                0x10005f1c        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005ea8        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_array_one
-                0x10005f20        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005eac        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_array_seven
-                0x10005f24        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005eb0        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_array_six
-                0x10005f28        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005eb4        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_array_three
-                0x10005f2c        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005eb8        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_array_two
-                0x10005f30        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005ebc        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_array_zero
-                0x10005f34        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005ec0        0x4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_eight
-                0x10005f38        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005ec4        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_five
-                0x10005f40        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005ecc        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_four
-                0x10005f48        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005ed4        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_nine
-                0x10005f50        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005edc        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_one
-                0x10005f58        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005ee4        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_seven
-                0x10005f60        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005eec        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_six
-                0x10005f68        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005ef4        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_table
-                0x10005f70       0x50 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005efc       0x50 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_three
-                0x10005fc0        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005f4c        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_two
-                0x10005fc8        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005f54        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.mask_zero
-                0x10005fd0        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005f5c        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata.ws2812_program
-                0x10005fd8        0x6 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
- *fill*         0x10005fde        0x2 
+                0x10005f64        0x6 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+ *fill*         0x10005f6a        0x2 
  .rodata.ws2812_program_instructions
-                0x10005fe0        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                0x10005f6c        0x8 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .rodata._pio_find_offset_for_program.str1.4
-                0x10005fe8       0x78 basic/display_driver/libdisplay_driver.a(pio.c.obj)
+                0x10005f74       0x78 basic/display_driver/libdisplay_driver.a(pio.c.obj)
  .rodata._pio_add_program_at_offset.str1.4
-                0x10006060       0x11 basic/display_driver/libdisplay_driver.a(pio.c.obj)
- *fill*         0x10006071        0x3 
+                0x10005fec       0x11 basic/display_driver/libdisplay_driver.a(pio.c.obj)
+ *fill*         0x10005ffd        0x3 
  .rodata.__func__.1
-                0x10006074       0x1d basic/display_driver/libdisplay_driver.a(pio.c.obj)
-                0x10006094                . = ALIGN (0x4)
- *fill*         0x10006091        0x3 
+                0x10006000       0x1d basic/display_driver/libdisplay_driver.a(pio.c.obj)
+                0x10006020                . = ALIGN (0x4)
+ *fill*         0x1000601d        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10006094                . = ALIGN (0x4)
+                0x10006020                . = ALIGN (0x4)
 
-.rel.dyn        0x10006094        0x0
- .rel.iplt      0x10006094        0x0 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x10006020        0x0
+ .rel.iplt      0x10006020        0x0 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10006094                __exidx_start = .
+                0x10006020                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10006094                __exidx_end = .
-                0x10006094                . = ALIGN (0x4)
-                0x10006094                __binary_info_start = .
+                0x10006020                __exidx_end = .
+                0x10006020                . = ALIGN (0x4)
+                0x10006020                __binary_info_start = .
 
-.binary_info    0x10006094       0x24
+.binary_info    0x10006020       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x10006094        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006020        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x10006098        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006024        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x1000609c        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006028        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x100060a0        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000602c        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x100060a4        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006030        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x100060a8        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006034        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x100060ac        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006038        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr33
-                0x100060b0        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000603c        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr34
-                0x100060b4        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100060b8                __binary_info_end = .
-                0x100060b8                . = ALIGN (0x4)
-                0x100060b8                __etext = .
+                0x10006040        0x4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10006044                __binary_info_end = .
+                0x10006044                . = ALIGN (0x4)
+                0x10006044                __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2222,7 +2217,7 @@ LOAD c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
                 0x20000000       0xc0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x674 load address 0x100060b8
+.data           0x200000c0      0x674 load address 0x10006044
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2313,27 +2308,27 @@ LOAD c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
                 0x20000734                . = ALIGN (0x4)
                 0x20000734                __data_end__ = .
 
-.igot.plt       0x20000734        0x0 load address 0x1000672c
+.igot.plt       0x20000734        0x0 load address 0x100066b8
  .igot.plt      0x20000734        0x0 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000734        0x0 load address 0x1000672c
+                0x20000734        0x0 load address 0x100066b8
                 0x20000734                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x1000672c
+.scratch_x      0x20040000        0x0 load address 0x100066b8
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x1000672c                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x100066b8                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x1000672c
+.scratch_y      0x20041000        0x0 load address 0x100066b8
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x1000672c                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x100066b8                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000738      0x700
                 0x20000738                . = ALIGN (0x4)
@@ -2403,8 +2398,8 @@ LOAD c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
  *(.stack*)
  .stack         0x20041000      0x800 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x1000672c        0x0
-                0x1000672c                __flash_binary_end = .
+.flash_end      0x100066b8        0x0
+                0x100066b8                __flash_binary_end = .
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2460,7 +2455,7 @@ LOAD basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/s
 LOAD basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD basic/display_driver/libdisplay_driver.a
-LOAD C:\Users\dreng\AppData\Local\Temp\ccAnK1zG.o
+LOAD C:\Users\dreng\AppData\Local\Temp\ccCZCap1.o
 LOAD c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2557,7 +2552,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000005ea       0x2c basic/display_driver/libdisplay_driver.a(pio.c.obj)
  .ARM.attributes
-                0x00000616       0x22 C:\Users\dreng\AppData\Local\Temp\ccAnK1zG.o
+                0x00000616       0x22 C:\Users\dreng\AppData\Local\Temp\ccCZCap1.o
  .ARM.attributes
                 0x00000638       0x1e c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2596,7 +2591,7 @@ LOAD linker stubs
  .comment       0x00000049       0x4a basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .comment       0x00000049       0x4a basic/display_driver/libdisplay_driver.a(pio.c.obj)
 
-.debug_info     0x00000000    0x191ef
+.debug_info     0x00000000    0x191fe
  .debug_info    0x00000000      0x63c basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
  .debug_info    0x0000063c     0x16d8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_info    0x00001d14      0x1e3 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -2630,8 +2625,8 @@ LOAD linker stubs
  .debug_info    0x00012bab      0x2f6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .debug_info    0x00012ea1     0x1821 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_info    0x000146c2     0x1044 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_info    0x00015706     0x186a basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
- .debug_info    0x00016f70     0x227f basic/display_driver/libdisplay_driver.a(pio.c.obj)
+ .debug_info    0x00015706     0x1879 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+ .debug_info    0x00016f7f     0x227f basic/display_driver/libdisplay_driver.a(pio.c.obj)
 
 .debug_abbrev   0x00000000     0x49ef
  .debug_abbrev  0x00000000      0x157 basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
@@ -2670,32 +2665,32 @@ LOAD linker stubs
  .debug_abbrev  0x00004141      0x42b basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .debug_abbrev  0x0000456c      0x483 basic/display_driver/libdisplay_driver.a(pio.c.obj)
 
-.debug_loc      0x00000000    0x10f34
- .debug_loc     0x00000000      0x190 basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
- .debug_loc     0x00000190     0x118d basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x0000131d       0xe9 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x00001406      0x45f basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x00001865      0x233 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x00001a98     0x13f5 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x00002e8d       0x60 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x00002eed     0x152e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x0000441b     0x31cb basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x000075e6      0xacb basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x000080b1     0x1446 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x000094f7      0x533 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_loc     0x00009a2a      0x81d basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x0000a247      0x2f3 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x0000a53a      0x2ec basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x0000a826       0x71 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x0000a897      0x674 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x0000af0b     0x2095 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x0000cfa0      0x1a1 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x0000d141       0x59 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x0000d19a       0x73 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x0000d20d      0xe23 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0000e030      0x888 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_loc     0x0000e8b8      0x9d5 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
- .debug_loc     0x0000f28d     0x1ca7 basic/display_driver/libdisplay_driver.a(pio.c.obj)
+.debug_loc      0x00000000    0x10f9a
+ .debug_loc     0x00000000      0x191 basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
+ .debug_loc     0x00000191     0x118d basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x0000131e       0xe9 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x00001407      0x45f basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x00001866      0x233 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x00001a99     0x13f5 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x00002e8e       0x60 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x00002eee     0x152e basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x0000441c     0x31cb basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x000075e7      0xacb basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x000080b2     0x1446 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x000094f8      0x533 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_loc     0x00009a2b      0x81d basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x0000a248      0x2f3 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x0000a53b      0x2ec basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x0000a827       0x71 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x0000a898      0x674 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x0000af0c     0x2095 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x0000cfa1      0x1a1 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x0000d142       0x59 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x0000d19b       0x73 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x0000d20e      0xe23 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0000e031      0x888 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_loc     0x0000e8b9      0xa3a basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+ .debug_loc     0x0000f2f3     0x1ca7 basic/display_driver/libdisplay_driver.a(pio.c.obj)
 
 .debug_aranges  0x00000000      0xf48
  .debug_aranges
@@ -2804,44 +2799,44 @@ LOAD linker stubs
  .debug_ranges  0x00003360      0x330 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
  .debug_ranges  0x00003690      0x4e0 basic/display_driver/libdisplay_driver.a(pio.c.obj)
 
-.debug_line     0x00000000    0x1080d
- .debug_line    0x00000000      0x3b7 basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
- .debug_line    0x000003b7      0xcff basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x000010b6      0x2af basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00001365      0x4af basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00001814      0x4ab basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00001cbf     0x10c4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00002d83      0x25a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00002fdd     0x1118 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000040f5     0x1c36 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00005d2b      0xc92 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000069bd      0x8ce basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x0000728b      0x7b8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x00007a43      0xa4d basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00008490      0x5b4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00008a44      0x434 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00008e78      0x2d8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00009150      0xb62 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00009cb2     0x1247 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000aef9      0x156 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000b04f      0x251 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000b2a0      0x2df basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000b57f      0x434 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000b9b3      0x388 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000bd3b      0x6ac basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000c3e7       0xa6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000c48d      0x3ea basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000c877      0x37a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000cbf1      0x1d6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000cdc7       0xd0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000ce97       0xde basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000cf75      0x1ea basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000d15f      0xf21 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000e080      0xb4f basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_line    0x0000ebcf      0xb43 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
- .debug_line    0x0000f712     0x10fb basic/display_driver/libdisplay_driver.a(pio.c.obj)
+.debug_line     0x00000000    0x1081d
+ .debug_line    0x00000000      0x3c0 basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
+ .debug_line    0x000003c0      0xcff basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x000010bf      0x2af basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x0000136e      0x4af basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x0000181d      0x4ab basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00001cc8     0x10c4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00002d8c      0x25a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00002fe6     0x1118 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000040fe     0x1c36 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00005d34      0xc92 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000069c6      0x8ce basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00007294      0x7b8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x00007a4c      0xa4d basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00008499      0x5b4 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00008a4d      0x434 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00008e81      0x2d8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00009159      0xb62 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00009cbb     0x1247 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000af02      0x156 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000b058      0x251 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000b2a9      0x2df basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000b588      0x434 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000b9bc      0x388 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000bd44      0x6ac basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000c3f0       0xa6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000c496      0x3ea basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000c880      0x37a basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000cbfa      0x1d6 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000cdd0       0xd0 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000cea0       0xde basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000cf7e      0x1ea basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000d168      0xf21 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000e089      0xb4f basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_line    0x0000ebd8      0xb4a basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+ .debug_line    0x0000f722     0x10fb basic/display_driver/libdisplay_driver.a(pio.c.obj)
 
-.debug_str      0x00000000     0x4453
+.debug_str      0x00000000     0x4444
  .debug_str     0x00000000      0x356 basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
                                 0x3b6 (size before relaxing)
  .debug_str     0x00000356      0x7c9 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -2908,12 +2903,12 @@ LOAD linker stubs
                                 0x9bc (size before relaxing)
  .debug_str     0x0000378f      0x346 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
                                 0x8de (size before relaxing)
- .debug_str     0x00003ad5      0x4d4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
-                                0xa4b (size before relaxing)
- .debug_str     0x00003fa9      0x4aa basic/display_driver/libdisplay_driver.a(pio.c.obj)
+ .debug_str     0x00003ad5      0x4c5 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+                                0xa35 (size before relaxing)
+ .debug_str     0x00003f9a      0x4aa basic/display_driver/libdisplay_driver.a(pio.c.obj)
                                 0xa6a (size before relaxing)
 
-.debug_frame    0x00000000     0x1bd0
+.debug_frame    0x00000000     0x1bcc
  .debug_frame   0x00000000       0x3c basic/CMakeFiles/pio_ws2812.dir/ws2812.c.obj
  .debug_frame   0x0000003c      0x278 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_frame   0x000002b4       0x38 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -2937,7 +2932,7 @@ LOAD linker stubs
  .debug_frame   0x00001470       0x2c basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .debug_frame   0x0000149c      0x2d8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_frame   0x00001774       0xe8 basic/CMakeFiles/pio_ws2812.dir/C_/Users/dreng/source/repos/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_frame   0x0000185c       0xb4 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
- .debug_frame   0x00001910      0x260 basic/display_driver/libdisplay_driver.a(pio.c.obj)
- .debug_frame   0x00001b70       0x38 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-rand.o)
- .debug_frame   0x00001ba8       0x28 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000185c       0xb0 basic/display_driver/libdisplay_driver.a(display_driver.c.obj)
+ .debug_frame   0x0000190c      0x260 basic/display_driver/libdisplay_driver.a(pio.c.obj)
+ .debug_frame   0x00001b6c       0x38 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-rand.o)
+ .debug_frame   0x00001ba4       0x28 c:/progra~1/raspbe~1/picosd~1.0/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
