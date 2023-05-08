@@ -163,6 +163,7 @@ C:/Users/dreng/source/repos/pico/pico-clock/build/pico-sdk/src/rp2040/hardware_s
 C:/Users/dreng/source/repos/pico/pico-clock/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/Users/dreng/source/repos/pico/pico-clock/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
 C:/Users/dreng/source/repos/pico/pico-clock/build/basic/CMakeFiles/pio_ws2812.dir
+C:/Users/dreng/source/repos/pico/pico-clock/build/basic/CMakeFiles/basic_clock.dir
 C:/Users/dreng/source/repos/pico/pico-clock/build/basic/CMakeFiles/edit_cache.dir
 C:/Users/dreng/source/repos/pico/pico-clock/build/basic/CMakeFiles/rebuild_cache.dir
 C:/Users/dreng/source/repos/pico/pico-clock/build/basic/display_driver/CMakeFiles/masks.dir
@@ -183,6 +184,7 @@ C:/Users/dreng/source/repos/pico/pico-clock/build/examples/i2c_example/CMakeFile
 C:/Users/dreng/source/repos/pico/pico-clock/build/examples/i2c_example/CMakeFiles/edit_cache.dir
 C:/Users/dreng/source/repos/pico/pico-clock/build/examples/i2c_example/CMakeFiles/rebuild_cache.dir
 C:/Users/dreng/source/repos/pico/pico-clock/build/RTC/CMakeFiles/rtc_test.dir
+C:/Users/dreng/source/repos/pico/pico-clock/build/RTC/CMakeFiles/set_time.dir
 C:/Users/dreng/source/repos/pico/pico-clock/build/RTC/CMakeFiles/edit_cache.dir
 C:/Users/dreng/source/repos/pico/pico-clock/build/RTC/CMakeFiles/rebuild_cache.dir
 C:/Users/dreng/source/repos/pico/pico-clock/build/RTC/rtc_driver/CMakeFiles/rtc_driver.dir

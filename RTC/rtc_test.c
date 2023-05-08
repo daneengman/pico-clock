@@ -1,8 +1,4 @@
-/**
- * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
+
 
 // can I get rid of this?
 #include <stdio.h>
@@ -16,5 +12,16 @@ int main() {
     stdio_init_all();
     printf("Test of basic RTC communication features\n");
 
-    
+    rtc_init();
+    printf("hi\n");
+    uint8_t time[3];
+    uint8_t previous = time[0];
+    while(1) {
+        rtc_read(time);
+        if (time[0] != previous) {
+            printf("Current time: %i : %i : %i\n", time[2], time[1], time[0]);
+        }
+        previous = time[0];
+        
+    }
 }
